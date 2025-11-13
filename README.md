@@ -16,9 +16,8 @@ Este projeto demonstra um fluxo completo de MLOps, incluindo:
 
 Abaixo está a visualização do fluxo de trabalho completo do projeto, mostrando como os dados fluem desde a origem até os relatórios finais.
 
-**[COLE A IMAGEM DO SEU KEDRO VIZ AQUI]**
+![Visualização do Pipeline Kedro](kedro-pipeline.png)
 
-*(Para gerar essa imagem, rode `kedro viz` no seu terminal e tire um print!)*
 
 ## 🧱 Estrutura do Projeto
 
