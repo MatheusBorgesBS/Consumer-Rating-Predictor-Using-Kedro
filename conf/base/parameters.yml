@@ -1,0 +1,7 @@
+sample_frac: 0.5
+random_state: 42
+
+cliente_para_previsao:
+  comentario: ['este servico é horrivel e pessimo']
+  status: [0]
+  nota: ['1']

@@ -1,0 +1,855 @@
+2025-11-06 08:50:51,170 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-06 08:50:59,354 - kedro.framework.session.session - INFO - Kedro project gov
+2025-11-06 08:50:59,633 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-06 08:55:35,265 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-06 08:55:39,606 - kedro.framework.session.session - INFO - Kedro project gov
+2025-11-06 08:55:41,541 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-06 08:55:42,114 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-11-06 08:55:42,119 - kedro.pipeline.node - INFO - Running node: exemplo_node: exemplo_node(None) -> [saida_pipeline]
+2025-11-06 08:55:42,123 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]saida_pipeline[/dark_orange] (MemoryDataset)...
+2025-11-06 08:55:42,127 - kedro.runner.sequential_runner - INFO - Completed node: exemplo_node
+2025-11-06 08:55:42,129 - kedro.runner.sequential_runner - INFO - Completed 1 out of 1 tasks
+2025-11-06 08:55:42,131 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully in 0.0 sec.
+2025-11-06 09:03:06,397 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-06 09:03:07,060 - kedro.framework.session.session - INFO - Kedro project gov
+2025-11-06 09:03:07,858 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-06 09:03:08,414 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\kedro\io\core.py:545: UserWarning: Since kedro-datasets 2.0, 'Dataset' is spelled with a lowercase 's'. Got 'pandas.ParquetDataSet'.
+  warnings.warn(
+
+2025-11-06 09:03:26,150 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-06 09:03:26,755 - kedro.framework.session.session - INFO - Kedro project gov
+2025-11-06 09:03:27,492 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-06 09:03:28,042 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\kedro\io\core.py:545: UserWarning: Since kedro-datasets 2.0, 'Dataset' is spelled with a lowercase 's'. Got 'pandas.ParquetDataSet'.
+  warnings.warn(
+
+2025-11-06 09:05:12,803 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-06 09:05:13,441 - kedro.framework.session.session - INFO - Kedro project gov
+2025-11-06 09:05:14,209 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-06 09:05:15,037 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\google\api_core\_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.19) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+
+2025-11-06 09:05:15,498 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-11-06 09:05:15,503 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]dados_brutos[/dark_orange] (JSONDataset)...
+2025-11-06 09:05:20,785 - kedro.pipeline.node - INFO - Running node: limpar_dados_node: limpar_dados([dados_brutos]) -> [dados_limpos]
+2025-11-06 09:05:20,869 - py.warnings - WARNING - C:\Users\mathe\Área de Trabalho\Ml_data_set_gov\kedro\gov\src\gov\pipelines\preprocessamento\nodes.py:11: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['nota'] = df['nota'].astype(int)
+
+2025-11-06 09:05:20,903 - py.warnings - WARNING - C:\Users\mathe\Área de Trabalho\Ml_data_set_gov\kedro\gov\src\gov\pipelines\preprocessamento\nodes.py:12: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['status'] = df['status'].map({'Resolvido': 1, 'Não Resolvido': 0})
+
+2025-11-06 09:05:20,915 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]dados_limpos[/dark_orange] (ParquetDataset)...
+2025-11-06 09:05:22,372 - kedro.runner.sequential_runner - INFO - Completed node: limpar_dados_node
+2025-11-06 09:05:22,375 - kedro.runner.sequential_runner - INFO - Completed 1 out of 1 tasks
+2025-11-06 09:05:22,378 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully in 6.9 sec.
+2025-11-06 09:19:03,804 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-06 09:19:04,572 - kedro.framework.session.session - INFO - Kedro project gov
+2025-11-06 09:19:06,042 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-06 09:20:03,565 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-06 09:20:04,155 - kedro.framework.session.session - INFO - Kedro project gov
+2025-11-06 09:20:05,763 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-06 09:20:06,318 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\kedro\io\core.py:545: UserWarning: Since kedro-datasets 2.0, 'Dataset' is spelled with a lowercase 's'. Got 'pandas.ParquetDataSet'.
+  warnings.warn(
+
+2025-11-06 09:20:06,608 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\google\api_core\_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.19) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+
+2025-11-06 09:20:47,738 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-06 09:20:48,347 - kedro.framework.session.session - INFO - Kedro project gov
+2025-11-06 09:20:49,805 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-06 09:20:50,502 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\google\api_core\_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.19) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+
+2025-11-06 09:20:50,867 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-11-06 09:20:50,870 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]dados_brutos[/dark_orange] (JSONDataset)...
+2025-11-06 09:20:54,455 - kedro.pipeline.node - INFO - Running node: limpar_dados_node: limpar_dados([dados_brutos]) -> [dados_limpos]
+2025-11-06 09:20:54,527 - py.warnings - WARNING - C:\Users\mathe\Área de Trabalho\Ml_data_set_gov\kedro\gov\src\gov\pipelines\preprocessamento\nodes.py:14: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['nota'] = df['nota'].astype(int)
+
+2025-11-06 09:20:54,567 - py.warnings - WARNING - C:\Users\mathe\Área de Trabalho\Ml_data_set_gov\kedro\gov\src\gov\pipelines\preprocessamento\nodes.py:15: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['status'] = df['status'].map({'Resolvido': 1, 'Não Resolvido': 0})
+
+2025-11-06 09:20:54,578 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]dados_limpos[/dark_orange] (ParquetDataset)...
+2025-11-06 09:20:55,933 - kedro.runner.sequential_runner - INFO - Completed node: limpar_dados_node
+2025-11-06 09:20:55,936 - kedro.runner.sequential_runner - INFO - Completed 1 out of 2 tasks
+2025-11-06 09:20:55,938 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]dados_limpos[/dark_orange] (ParquetDataset)...
+2025-11-06 09:20:56,604 - kedro.pipeline.node - INFO - Running node: vetorizar_texto_node: vetorizar_texto([dados_limpos]) -> [X_vetor;y_vetor]
+2025-11-06 09:20:56,609 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\sklearn\feature_extraction\text.py:402: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['do', 'há', 'não'] not in stop_words.
+  warnings.warn(
+
+2025-11-06 09:20:59,787 - kedro.pipeline.node - ERROR - Node vetorizar_texto_node: vetorizar_texto([dados_limpos]) -> [X_vetor;y_vetor] failed with error: 
+'csr_matrix' object has no attribute 'get_feature_names_out'
+2025-11-06 09:20:59,793 - kedro.runner.sequential_runner - WARNING - There are 1 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes "vetorizar_texto_node"
+2025-11-06 09:22:17,062 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-06 09:22:17,763 - kedro.framework.session.session - INFO - Kedro project gov
+2025-11-06 09:22:19,768 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-06 09:22:20,514 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\google\api_core\_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.19) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+
+2025-11-06 09:22:20,944 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-11-06 09:22:20,948 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]dados_brutos[/dark_orange] (JSONDataset)...
+2025-11-06 09:22:24,090 - kedro.pipeline.node - INFO - Running node: limpar_dados_node: limpar_dados([dados_brutos]) -> [dados_limpos]
+2025-11-06 09:22:24,156 - py.warnings - WARNING - C:\Users\mathe\Área de Trabalho\Ml_data_set_gov\kedro\gov\src\gov\pipelines\preprocessamento\nodes.py:14: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['nota'] = df['nota'].astype(int)
+
+2025-11-06 09:22:24,188 - py.warnings - WARNING - C:\Users\mathe\Área de Trabalho\Ml_data_set_gov\kedro\gov\src\gov\pipelines\preprocessamento\nodes.py:15: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['status'] = df['status'].map({'Resolvido': 1, 'Não Resolvido': 0})
+
+2025-11-06 09:22:24,198 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]dados_limpos[/dark_orange] (ParquetDataset)...
+2025-11-06 09:22:25,504 - kedro.runner.sequential_runner - INFO - Completed node: limpar_dados_node
+2025-11-06 09:22:25,507 - kedro.runner.sequential_runner - INFO - Completed 1 out of 2 tasks
+2025-11-06 09:22:25,509 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]dados_limpos[/dark_orange] (ParquetDataset)...
+2025-11-06 09:22:26,141 - kedro.pipeline.node - INFO - Running node: vetorizar_texto_node: vetorizar_texto([dados_limpos]) -> [X_vetor;y_vetor]
+2025-11-06 09:22:26,149 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\sklearn\feature_extraction\text.py:402: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['do', 'há', 'não'] not in stop_words.
+  warnings.warn(
+
+2025-11-06 09:22:29,300 - kedro.pipeline.node - ERROR - Node vetorizar_texto_node: vetorizar_texto([dados_limpos]) -> [X_vetor;y_vetor] failed with error: 
+'TfidfVectorizer' object has no attribute 'get_feature_names'
+2025-11-06 09:22:29,305 - kedro.runner.sequential_runner - WARNING - There are 1 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes "vetorizar_texto_node"
+2025-11-06 09:23:38,717 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-06 09:23:39,313 - kedro.framework.session.session - INFO - Kedro project gov
+2025-11-06 09:23:40,789 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-06 09:23:41,492 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\google\api_core\_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.19) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+
+2025-11-06 09:23:41,857 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-11-06 09:23:41,861 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]dados_brutos[/dark_orange] (JSONDataset)...
+2025-11-06 09:23:44,898 - kedro.pipeline.node - INFO - Running node: limpar_dados_node: limpar_dados([dados_brutos]) -> [dados_limpos]
+2025-11-06 09:23:44,958 - py.warnings - WARNING - C:\Users\mathe\Área de Trabalho\Ml_data_set_gov\kedro\gov\src\gov\pipelines\preprocessamento\nodes.py:14: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['nota'] = df['nota'].astype(int)
+
+2025-11-06 09:23:44,988 - py.warnings - WARNING - C:\Users\mathe\Área de Trabalho\Ml_data_set_gov\kedro\gov\src\gov\pipelines\preprocessamento\nodes.py:15: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['status'] = df['status'].map({'Resolvido': 1, 'Não Resolvido': 0})
+
+2025-11-06 09:23:44,999 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]dados_limpos[/dark_orange] (ParquetDataset)...
+2025-11-06 09:23:46,308 - kedro.runner.sequential_runner - INFO - Completed node: limpar_dados_node
+2025-11-06 09:23:46,312 - kedro.runner.sequential_runner - INFO - Completed 1 out of 2 tasks
+2025-11-06 09:23:46,313 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]dados_limpos[/dark_orange] (ParquetDataset)...
+2025-11-06 09:23:46,942 - kedro.pipeline.node - INFO - Running node: vetorizar_texto_node: vetorizar_texto([dados_limpos]) -> [X_vetor;y_vetor]
+2025-11-06 09:23:46,947 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\sklearn\feature_extraction\text.py:402: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['do', 'há', 'não'] not in stop_words.
+  warnings.warn(
+
+2025-11-06 09:23:50,885 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]X_vetor[/dark_orange] (MemoryDataset)...
+2025-11-06 09:23:50,980 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]y_vetor[/dark_orange] (MemoryDataset)...
+2025-11-06 09:23:51,067 - kedro.runner.sequential_runner - INFO - Completed node: vetorizar_texto_node
+2025-11-06 09:23:51,070 - kedro.runner.sequential_runner - INFO - Completed 2 out of 2 tasks
+2025-11-06 09:23:51,072 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully in 9.2 sec.
+2025-11-06 09:28:57,646 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-06 09:28:58,315 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-06 09:35:39,988 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-06 09:35:40,597 - kedro.framework.session.session - INFO - Kedro project gov
+2025-11-06 09:35:42,289 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-06 09:37:57,789 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-06 09:37:58,378 - kedro.framework.session.session - INFO - Kedro project gov
+2025-11-06 09:37:59,938 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-06 09:38:00,495 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\kedro\io\core.py:545: UserWarning: Since kedro-datasets 2.0, 'Dataset' is spelled with a lowercase 's'. Got 'pickle.PickleDataSet'.
+  warnings.warn(
+
+2025-11-06 09:38:40,387 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-06 09:38:40,994 - kedro.framework.session.session - INFO - Kedro project gov
+2025-11-06 09:38:42,554 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-06 09:38:43,319 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\google\api_core\_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.19) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+
+2025-11-06 09:38:43,652 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-11-06 09:38:43,657 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]dados_brutos[/dark_orange] (JSONDataset)...
+2025-11-06 09:38:46,795 - kedro.pipeline.node - INFO - Running node: limpar_dados_node: limpar_dados([dados_brutos]) -> [dados_limpos]
+2025-11-06 09:38:46,856 - py.warnings - WARNING - C:\Users\mathe\Área de Trabalho\Ml_data_set_gov\kedro\gov\src\gov\pipelines\preprocessamento\nodes.py:14: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['nota'] = df['nota'].astype(int)
+
+2025-11-06 09:38:46,888 - py.warnings - WARNING - C:\Users\mathe\Área de Trabalho\Ml_data_set_gov\kedro\gov\src\gov\pipelines\preprocessamento\nodes.py:15: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['status'] = df['status'].map({'Resolvido': 1, 'Não Resolvido': 0})
+
+2025-11-06 09:38:46,898 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]dados_limpos[/dark_orange] (ParquetDataset)...
+2025-11-06 09:38:48,241 - kedro.runner.sequential_runner - INFO - Completed node: limpar_dados_node
+2025-11-06 09:38:48,244 - kedro.runner.sequential_runner - INFO - Completed 1 out of 4 tasks
+2025-11-06 09:38:48,245 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]dados_limpos[/dark_orange] (ParquetDataset)...
+2025-11-06 09:38:48,895 - kedro.pipeline.node - INFO - Running node: vetorizar_texto_node: vetorizar_texto([dados_limpos]) -> [X_vetor;y_vetor]
+2025-11-06 09:38:48,901 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\sklearn\feature_extraction\text.py:402: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['do', 'há', 'não'] not in stop_words.
+  warnings.warn(
+
+2025-11-06 09:38:52,851 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]X_vetor[/dark_orange] (MemoryDataset)...
+2025-11-06 09:38:52,945 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]y_vetor[/dark_orange] (MemoryDataset)...
+2025-11-06 09:38:53,030 - kedro.runner.sequential_runner - INFO - Completed node: vetorizar_texto_node
+2025-11-06 09:38:53,032 - kedro.runner.sequential_runner - INFO - Completed 2 out of 4 tasks
+2025-11-06 09:38:53,034 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]X_vetor[/dark_orange] (MemoryDataset)...
+2025-11-06 09:38:53,131 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]y_vetor[/dark_orange] (MemoryDataset)...
+2025-11-06 09:38:53,135 - kedro.pipeline.node - INFO - Running node: treinar_varios_modelos_node: selecionar_melhor_modelo([X_vetor;y_vetor]) -> [modelos_resultados]
+2025-11-06 09:43:56,599 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-06 09:43:57,388 - kedro.framework.session.session - INFO - Kedro project gov
+2025-11-06 09:44:00,333 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-06 09:44:01,285 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\google\api_core\_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.19) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+
+2025-11-06 09:44:01,749 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-11-06 09:44:01,753 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]dados_brutos[/dark_orange] (JSONDataset)...
+2025-11-06 09:44:05,133 - kedro.pipeline.node - INFO - Running node: limpar_dados_node: limpar_dados([dados_brutos]) -> [dados_limpos]
+2025-11-06 09:44:05,206 - py.warnings - WARNING - C:\Users\mathe\Área de Trabalho\Ml_data_set_gov\kedro\gov\src\gov\pipelines\preprocessamento\nodes.py:14: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['nota'] = df['nota'].astype(int)
+
+2025-11-06 09:44:05,235 - py.warnings - WARNING - C:\Users\mathe\Área de Trabalho\Ml_data_set_gov\kedro\gov\src\gov\pipelines\preprocessamento\nodes.py:15: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['status'] = df['status'].map({'Resolvido': 1, 'Não Resolvido': 0})
+
+2025-11-06 09:44:05,245 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]dados_limpos[/dark_orange] (ParquetDataset)...
+2025-11-06 09:44:06,687 - kedro.runner.sequential_runner - INFO - Completed node: limpar_dados_node
+2025-11-06 09:44:06,690 - kedro.runner.sequential_runner - INFO - Completed 1 out of 4 tasks
+2025-11-06 09:44:06,693 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]dados_limpos[/dark_orange] (ParquetDataset)...
+2025-11-06 09:44:07,379 - kedro.pipeline.node - INFO - Running node: vetorizar_texto_node: vetorizar_texto([dados_limpos]) -> [X_vetor;y_vetor]
+2025-11-06 09:44:07,385 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\sklearn\feature_extraction\text.py:402: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['do', 'há', 'não'] not in stop_words.
+  warnings.warn(
+
+2025-11-06 09:44:11,645 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]X_vetor[/dark_orange] (MemoryDataset)...
+2025-11-06 09:44:11,748 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]y_vetor[/dark_orange] (MemoryDataset)...
+2025-11-06 09:44:11,839 - kedro.runner.sequential_runner - INFO - Completed node: vetorizar_texto_node
+2025-11-06 09:44:11,842 - kedro.runner.sequential_runner - INFO - Completed 2 out of 4 tasks
+2025-11-06 09:44:11,844 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]X_vetor[/dark_orange] (MemoryDataset)...
+2025-11-06 09:44:11,945 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]y_vetor[/dark_orange] (MemoryDataset)...
+2025-11-06 09:44:11,949 - kedro.pipeline.node - INFO - Running node: treinar_varios_modelos_node: selecionar_melhor_modelo([X_vetor;y_vetor]) -> [modelos_resultados]
+2025-11-06 09:49:06,468 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-06 09:49:07,076 - kedro.framework.session.session - INFO - Kedro project gov
+2025-11-06 09:49:08,633 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-06 09:49:09,335 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\google\api_core\_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.19) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+
+2025-11-06 09:49:09,711 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-11-06 09:49:09,714 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]dados_brutos[/dark_orange] (JSONDataset)...
+2025-11-06 09:49:12,741 - kedro.pipeline.node - INFO - Running node: limpar_dados_node: limpar_dados([dados_brutos]) -> [dados_limpos]
+2025-11-06 09:49:12,793 - py.warnings - WARNING - C:\Users\mathe\Área de Trabalho\Ml_data_set_gov\kedro\gov\src\gov\pipelines\preprocessamento\nodes.py:14: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['nota'] = df['nota'].astype(int)
+
+2025-11-06 09:49:12,822 - py.warnings - WARNING - C:\Users\mathe\Área de Trabalho\Ml_data_set_gov\kedro\gov\src\gov\pipelines\preprocessamento\nodes.py:15: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['status'] = df['status'].map({'Resolvido': 1, 'Não Resolvido': 0})
+
+2025-11-06 09:49:12,844 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]dados_limpos[/dark_orange] (ParquetDataset)...
+2025-11-06 09:49:14,172 - kedro.runner.sequential_runner - INFO - Completed node: limpar_dados_node
+2025-11-06 09:49:14,175 - kedro.runner.sequential_runner - INFO - Completed 1 out of 4 tasks
+2025-11-06 09:49:14,177 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]dados_limpos[/dark_orange] (ParquetDataset)...
+2025-11-06 09:49:14,813 - kedro.pipeline.node - INFO - Running node: vetorizar_texto_node: vetorizar_texto([dados_limpos]) -> [X_vetor;y_vetor]
+2025-11-06 09:49:14,818 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\sklearn\feature_extraction\text.py:402: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['do', 'há', 'não'] not in stop_words.
+  warnings.warn(
+
+2025-11-06 09:49:18,809 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]X_vetor[/dark_orange] (MemoryDataset)...
+2025-11-06 09:49:18,895 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]y_vetor[/dark_orange] (MemoryDataset)...
+2025-11-06 09:49:18,984 - kedro.runner.sequential_runner - INFO - Completed node: vetorizar_texto_node
+2025-11-06 09:49:18,986 - kedro.runner.sequential_runner - INFO - Completed 2 out of 4 tasks
+2025-11-06 09:49:18,988 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]X_vetor[/dark_orange] (MemoryDataset)...
+2025-11-06 09:49:19,097 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]y_vetor[/dark_orange] (MemoryDataset)...
+2025-11-06 09:49:19,101 - kedro.pipeline.node - INFO - Running node: treinar_varios_modelos_node: selecionar_melhor_modelo([X_vetor;y_vetor]) -> [modelos_resultados]
+2025-11-06 09:50:26,159 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-06 09:50:26,753 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-06 09:51:18,992 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-06 09:51:22,808 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-06 09:51:25,960 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\google\api_core\_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.19) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+
+2025-11-06 09:54:30,515 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-06 09:54:38,663 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-06 09:54:44,161 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-06 09:56:00,083 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-06 09:56:04,119 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-06 09:56:08,644 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\google\api_core\_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.19) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+
+2025-11-06 09:58:36,222 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-06 09:58:40,342 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-06 09:58:44,021 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-06 09:58:46,887 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\google\api_core\_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.19) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+
+2025-11-06 10:08:45,981 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-06 14:51:39,765 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-06 14:51:41,068 - kedro.framework.session.session - INFO - Kedro project gov
+2025-11-06 14:51:45,357 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-06 14:52:58,541 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-06 14:52:59,428 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-09 00:37:21,395 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-09 00:37:22,504 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-09 00:38:31,406 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-09 00:38:32,314 - kedro.framework.session.session - INFO - Kedro project gov
+2025-11-09 00:38:35,892 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-09 17:55:53,501 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-09 17:55:54,681 - kedro.framework.session.session - INFO - Kedro project gov
+2025-11-09 17:55:58,339 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-09 17:57:32,225 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-09 17:57:32,996 - kedro.framework.session.session - INFO - Kedro project gov
+2025-11-09 17:57:34,544 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-09 17:59:59,291 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-09 18:00:00,046 - kedro.framework.session.session - INFO - Kedro project gov
+2025-11-09 18:00:01,609 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-09 18:01:01,851 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-09 18:01:02,653 - kedro.framework.session.session - INFO - Kedro project gov
+2025-11-09 18:01:04,379 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-09 18:01:05,524 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\google\api_core\_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.19) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+
+2025-11-09 18:01:35,833 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-09 18:01:36,599 - kedro.framework.session.session - INFO - Kedro project gov
+2025-11-09 18:01:38,162 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-09 18:01:38,956 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\google\api_core\_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.19) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+
+2025-11-09 18:01:39,617 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-11-09 18:01:39,621 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]dados_brutos[/dark_orange] (JSONDataset)...
+2025-11-09 18:01:42,998 - kedro.pipeline.node - INFO - Running node: limpar_dados_node: limpar_dados([dados_brutos]) -> [dados_limpos]
+2025-11-09 18:01:43,068 - py.warnings - WARNING - C:\Users\mathe\Área de Trabalho\Ml_data_set_gov\kedro\gov\src\gov\pipelines\preprocessamento\nodes.py:14: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['nota'] = df['nota'].astype(int)
+
+2025-11-09 18:01:43,099 - py.warnings - WARNING - C:\Users\mathe\Área de Trabalho\Ml_data_set_gov\kedro\gov\src\gov\pipelines\preprocessamento\nodes.py:15: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['status'] = df['status'].map({'Resolvido': 1, 'Não Resolvido': 0})
+
+2025-11-09 18:01:43,119 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]dados_limpos[/dark_orange] (ParquetDataset)...
+2025-11-09 18:01:44,466 - kedro.runner.sequential_runner - INFO - Completed node: limpar_dados_node
+2025-11-09 18:01:44,469 - kedro.runner.sequential_runner - INFO - Completed 1 out of 4 tasks
+2025-11-09 18:01:44,471 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]dados_limpos[/dark_orange] (ParquetDataset)...
+2025-11-09 18:01:45,149 - kedro.pipeline.node - INFO - Running node: vetorizar_texto_node: vetorizar_texto([dados_limpos]) -> [X_vetor;y_vetor]
+2025-11-09 18:01:45,156 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\sklearn\feature_extraction\text.py:402: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['do', 'há', 'não'] not in stop_words.
+  warnings.warn(
+
+2025-11-09 18:01:49,112 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]X_vetor[/dark_orange] (MemoryDataset)...
+2025-11-09 18:01:49,204 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]y_vetor[/dark_orange] (MemoryDataset)...
+2025-11-09 18:01:49,291 - kedro.runner.sequential_runner - INFO - Completed node: vetorizar_texto_node
+2025-11-09 18:01:49,294 - kedro.runner.sequential_runner - INFO - Completed 2 out of 4 tasks
+2025-11-09 18:01:49,297 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]X_vetor[/dark_orange] (MemoryDataset)...
+2025-11-09 18:01:49,400 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]y_vetor[/dark_orange] (MemoryDataset)...
+2025-11-09 18:01:49,404 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]params:sample_frac[/dark_orange] (MemoryDataset)...
+2025-11-09 18:01:49,408 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]params:random_state[/dark_orange] (MemoryDataset)...
+2025-11-09 18:01:49,411 - kedro.pipeline.node - INFO - Running node: treinar_varios_modelos_node: selecionar_melhor_modelo([X_vetor;y_vetor;params:sample_frac;params:random_state]) -> [modelos_resultados]
+2025-11-09 18:01:49,516 - kedro.pipeline.node - ERROR - Node treinar_varios_modelos_node: selecionar_melhor_modelo([X_vetor;y_vetor;params:sample_frac;params:random_state]) -> [modelos_resultados] failed with error: 
+name 'test_size' is not defined
+2025-11-09 18:01:49,525 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes "vetorizar_texto_node"
+2025-11-09 18:08:32,521 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-09 18:08:34,038 - kedro.framework.session.session - INFO - Kedro project gov
+2025-11-09 18:08:35,614 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-09 18:08:36,638 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\google\api_core\_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.19) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+
+2025-11-09 18:08:37,296 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-11-09 18:08:37,301 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]dados_brutos[/dark_orange] (JSONDataset)...
+2025-11-09 18:08:40,314 - kedro.pipeline.node - INFO - Running node: limpar_dados_node: limpar_dados([dados_brutos]) -> [dados_limpos]
+2025-11-09 18:08:40,368 - py.warnings - WARNING - C:\Users\mathe\Área de Trabalho\Ml_data_set_gov\kedro\gov\src\gov\pipelines\preprocessamento\nodes.py:14: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['nota'] = df['nota'].astype(int)
+
+2025-11-09 18:08:40,397 - py.warnings - WARNING - C:\Users\mathe\Área de Trabalho\Ml_data_set_gov\kedro\gov\src\gov\pipelines\preprocessamento\nodes.py:15: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['status'] = df['status'].map({'Resolvido': 1, 'Não Resolvido': 0})
+
+2025-11-09 18:08:40,407 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]dados_limpos[/dark_orange] (ParquetDataset)...
+2025-11-09 18:08:41,738 - kedro.runner.sequential_runner - INFO - Completed node: limpar_dados_node
+2025-11-09 18:08:41,741 - kedro.runner.sequential_runner - INFO - Completed 1 out of 4 tasks
+2025-11-09 18:08:41,744 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]dados_limpos[/dark_orange] (ParquetDataset)...
+2025-11-09 18:08:42,384 - kedro.pipeline.node - INFO - Running node: vetorizar_texto_node: vetorizar_texto([dados_limpos]) -> [X_vetor;y_vetor]
+2025-11-09 18:08:42,388 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\sklearn\feature_extraction\text.py:402: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['do', 'há', 'não'] not in stop_words.
+  warnings.warn(
+
+2025-11-09 18:08:46,279 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]X_vetor[/dark_orange] (MemoryDataset)...
+2025-11-09 18:08:46,377 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]y_vetor[/dark_orange] (MemoryDataset)...
+2025-11-09 18:08:46,464 - kedro.runner.sequential_runner - INFO - Completed node: vetorizar_texto_node
+2025-11-09 18:08:46,467 - kedro.runner.sequential_runner - INFO - Completed 2 out of 4 tasks
+2025-11-09 18:08:46,470 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]X_vetor[/dark_orange] (MemoryDataset)...
+2025-11-09 18:08:46,565 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]y_vetor[/dark_orange] (MemoryDataset)...
+2025-11-09 18:08:46,569 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]params:sample_frac[/dark_orange] (MemoryDataset)...
+2025-11-09 18:08:46,572 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]params:random_state[/dark_orange] (MemoryDataset)...
+2025-11-09 18:08:46,574 - kedro.pipeline.node - INFO - Running node: treinar_varios_modelos_node: selecionar_melhor_modelo([X_vetor;y_vetor;params:sample_frac;params:random_state]) -> [modelos_resultados;resultados_treino]
+2025-11-09 18:08:46,674 - kedro.pipeline.node - ERROR - Node treinar_varios_modelos_node: selecionar_melhor_modelo([X_vetor;y_vetor;params:sample_frac;params:random_state]) -> [modelos_resultados;resultados_treino] failed with error: 
+name 'test_size' is not defined
+2025-11-09 18:08:46,686 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes "vetorizar_texto_node"
+2025-11-09 18:09:01,841 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-09 18:09:03,358 - kedro.framework.session.session - INFO - Kedro project gov
+2025-11-09 18:09:04,930 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-09 18:09:05,718 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\google\api_core\_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.19) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+
+2025-11-09 18:09:06,383 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-11-09 18:09:06,388 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]dados_brutos[/dark_orange] (JSONDataset)...
+2025-11-09 18:09:09,333 - kedro.pipeline.node - INFO - Running node: limpar_dados_node: limpar_dados([dados_brutos]) -> [dados_limpos]
+2025-11-09 18:09:09,392 - py.warnings - WARNING - C:\Users\mathe\Área de Trabalho\Ml_data_set_gov\kedro\gov\src\gov\pipelines\preprocessamento\nodes.py:14: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['nota'] = df['nota'].astype(int)
+
+2025-11-09 18:09:09,423 - py.warnings - WARNING - C:\Users\mathe\Área de Trabalho\Ml_data_set_gov\kedro\gov\src\gov\pipelines\preprocessamento\nodes.py:15: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['status'] = df['status'].map({'Resolvido': 1, 'Não Resolvido': 0})
+
+2025-11-09 18:09:09,434 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]dados_limpos[/dark_orange] (ParquetDataset)...
+2025-11-09 18:09:10,744 - kedro.runner.sequential_runner - INFO - Completed node: limpar_dados_node
+2025-11-09 18:09:10,747 - kedro.runner.sequential_runner - INFO - Completed 1 out of 4 tasks
+2025-11-09 18:09:10,750 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]dados_limpos[/dark_orange] (ParquetDataset)...
+2025-11-09 18:09:11,406 - kedro.pipeline.node - INFO - Running node: vetorizar_texto_node: vetorizar_texto([dados_limpos]) -> [X_vetor;y_vetor]
+2025-11-09 18:09:11,412 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\sklearn\feature_extraction\text.py:402: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['do', 'há', 'não'] not in stop_words.
+  warnings.warn(
+
+2025-11-09 18:09:15,353 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]X_vetor[/dark_orange] (MemoryDataset)...
+2025-11-09 18:09:15,447 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]y_vetor[/dark_orange] (MemoryDataset)...
+2025-11-09 18:09:15,533 - kedro.runner.sequential_runner - INFO - Completed node: vetorizar_texto_node
+2025-11-09 18:09:15,536 - kedro.runner.sequential_runner - INFO - Completed 2 out of 4 tasks
+2025-11-09 18:09:15,538 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]X_vetor[/dark_orange] (MemoryDataset)...
+2025-11-09 18:09:15,636 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]y_vetor[/dark_orange] (MemoryDataset)...
+2025-11-09 18:09:15,640 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]params:sample_frac[/dark_orange] (MemoryDataset)...
+2025-11-09 18:09:15,642 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]params:random_state[/dark_orange] (MemoryDataset)...
+2025-11-09 18:09:15,645 - kedro.pipeline.node - INFO - Running node: treinar_varios_modelos_node: selecionar_melhor_modelo([X_vetor;y_vetor;params:sample_frac;params:random_state]) -> [modelos_resultados;resultados_treino]
+2025-11-09 18:09:15,811 - kedro.pipeline.node - ERROR - Node treinar_varios_modelos_node: selecionar_melhor_modelo([X_vetor;y_vetor;params:sample_frac;params:random_state]) -> [modelos_resultados;resultados_treino] failed with error: 
+Input y contains NaN.
+2025-11-09 18:09:15,825 - kedro.runner.sequential_runner - WARNING - There are 2 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes "vetorizar_texto_node"
+2025-11-09 18:12:10,727 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-09 18:12:12,418 - kedro.framework.session.session - INFO - Kedro project gov
+2025-11-09 18:12:14,302 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-09 18:12:15,100 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\google\api_core\_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.19) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+
+2025-11-09 18:12:15,818 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-11-09 18:12:15,824 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]dados_brutos[/dark_orange] (JSONDataset)...
+2025-11-09 18:12:18,940 - kedro.pipeline.node - INFO - Running node: limpar_dados_node: limpar_dados([dados_brutos]) -> [dados_limpos]
+2025-11-09 18:12:19,134 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]dados_limpos[/dark_orange] (ParquetDataset)...
+2025-11-09 18:12:20,559 - kedro.runner.sequential_runner - INFO - Completed node: limpar_dados_node
+2025-11-09 18:12:20,562 - kedro.runner.sequential_runner - INFO - Completed 1 out of 4 tasks
+2025-11-09 18:12:20,565 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]dados_limpos[/dark_orange] (ParquetDataset)...
+2025-11-09 18:12:21,293 - kedro.pipeline.node - INFO - Running node: vetorizar_texto_node: vetorizar_texto([dados_limpos]) -> [X_vetor;y_vetor]
+2025-11-09 18:12:21,297 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\sklearn\feature_extraction\text.py:402: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['do', 'há', 'não'] not in stop_words.
+  warnings.warn(
+
+2025-11-09 18:12:25,567 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]X_vetor[/dark_orange] (MemoryDataset)...
+2025-11-09 18:12:25,665 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]y_vetor[/dark_orange] (MemoryDataset)...
+2025-11-09 18:12:25,752 - kedro.runner.sequential_runner - INFO - Completed node: vetorizar_texto_node
+2025-11-09 18:12:25,755 - kedro.runner.sequential_runner - INFO - Completed 2 out of 4 tasks
+2025-11-09 18:12:25,758 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]X_vetor[/dark_orange] (MemoryDataset)...
+2025-11-09 18:12:25,859 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]y_vetor[/dark_orange] (MemoryDataset)...
+2025-11-09 18:12:25,863 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]params:sample_frac[/dark_orange] (MemoryDataset)...
+2025-11-09 18:12:25,865 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]params:random_state[/dark_orange] (MemoryDataset)...
+2025-11-09 18:12:25,868 - kedro.pipeline.node - INFO - Running node: treinar_varios_modelos_node: selecionar_melhor_modelo([X_vetor;y_vetor;params:sample_frac;params:random_state]) -> [modelos_resultados;resultados_treino]
+2025-11-09 18:14:22,236 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]modelos_resultados[/dark_orange] (MemoryDataset)...
+2025-11-09 18:14:22,287 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]resultados_treino[/dark_orange] (MemoryDataset)...
+2025-11-09 18:14:22,443 - kedro.runner.sequential_runner - INFO - Completed node: treinar_varios_modelos_node
+2025-11-09 18:14:22,447 - kedro.runner.sequential_runner - INFO - Completed 3 out of 4 tasks
+2025-11-09 18:14:22,503 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]modelos_resultados[/dark_orange] (MemoryDataset)...
+2025-11-09 18:14:22,565 - kedro.pipeline.node - INFO - Running node: selecionar_melhor_modelo_node: salvar_melhor_modelo([modelos_resultados]) -> [modelo_treinado_final;melhor_modelo_info]
+2025-11-09 18:14:22,568 - kedro.pipeline.node - ERROR - Node selecionar_melhor_modelo_node: salvar_melhor_modelo([modelos_resultados]) -> [modelo_treinado_final;melhor_modelo_info] failed with error: 
+list indices must be integers or slices, not DecisionTreeClassifier
+2025-11-09 18:14:22,580 - kedro.runner.sequential_runner - WARNING - There are 1 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes "vetorizar_texto_node"
+2025-11-09 18:16:58,375 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-09 18:16:59,135 - kedro.framework.session.session - INFO - Kedro project gov
+2025-11-09 18:17:00,777 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-09 18:17:01,610 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\google\api_core\_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.19) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+
+2025-11-09 18:17:02,446 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-11-09 18:17:02,451 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]dados_brutos[/dark_orange] (JSONDataset)...
+2025-11-09 18:17:05,569 - kedro.pipeline.node - INFO - Running node: limpar_dados_node: limpar_dados([dados_brutos]) -> [dados_limpos]
+2025-11-09 18:17:05,768 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]dados_limpos[/dark_orange] (ParquetDataset)...
+2025-11-09 18:17:07,272 - kedro.runner.sequential_runner - INFO - Completed node: limpar_dados_node
+2025-11-09 18:17:07,275 - kedro.runner.sequential_runner - INFO - Completed 1 out of 4 tasks
+2025-11-09 18:17:07,278 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]dados_limpos[/dark_orange] (ParquetDataset)...
+2025-11-09 18:17:08,003 - kedro.pipeline.node - INFO - Running node: vetorizar_texto_node: vetorizar_texto([dados_limpos]) -> [X_vetor;y_vetor]
+2025-11-09 18:17:08,010 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\sklearn\feature_extraction\text.py:402: UserWarning: Your stop_words may be inconsistent with your preprocessing. Tokenizing the stop words generated tokens ['do', 'há', 'não'] not in stop_words.
+  warnings.warn(
+
+2025-11-09 18:17:12,161 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]X_vetor[/dark_orange] (MemoryDataset)...
+2025-11-09 18:17:12,256 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]y_vetor[/dark_orange] (MemoryDataset)...
+2025-11-09 18:17:12,358 - kedro.runner.sequential_runner - INFO - Completed node: vetorizar_texto_node
+2025-11-09 18:17:12,361 - kedro.runner.sequential_runner - INFO - Completed 2 out of 4 tasks
+2025-11-09 18:17:12,363 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]X_vetor[/dark_orange] (MemoryDataset)...
+2025-11-09 18:17:12,475 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]y_vetor[/dark_orange] (MemoryDataset)...
+2025-11-09 18:17:12,479 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]params:sample_frac[/dark_orange] (MemoryDataset)...
+2025-11-09 18:17:12,482 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]params:random_state[/dark_orange] (MemoryDataset)...
+2025-11-09 18:17:12,484 - kedro.pipeline.node - INFO - Running node: treinar_varios_modelos_node: selecionar_melhor_modelo([X_vetor;y_vetor;params:sample_frac;params:random_state]) -> [modelo_treinado;modelos_resultados]
+2025-11-09 18:18:45,264 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-09 18:18:49,310 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-09 18:18:52,529 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\google\api_core\_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.19) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+
+2025-11-09 18:18:54,637 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-09 18:19:17,524 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]modelo_treinado[/dark_orange] (PickleDataset)...
+2025-11-09 18:19:17,564 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]modelos_resultados[/dark_orange] (MemoryDataset)...
+2025-11-09 18:19:17,698 - kedro.runner.sequential_runner - INFO - Completed node: treinar_varios_modelos_node
+2025-11-09 18:19:17,700 - kedro.runner.sequential_runner - INFO - Completed 3 out of 4 tasks
+2025-11-09 18:19:17,743 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]modelos_resultados[/dark_orange] (MemoryDataset)...
+2025-11-09 18:19:17,826 - kedro.pipeline.node - INFO - Running node: selecionar_melhor_modelo_node: salvar_melhor_modelo([modelos_resultados]) -> [melhor_modelo;melhor_modelo_info]
+2025-11-09 18:19:17,830 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]melhor_modelo[/dark_orange] (MemoryDataset)...
+2025-11-09 18:19:17,877 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]melhor_modelo_info[/dark_orange] (CSVDataset)...
+2025-11-09 18:19:17,891 - kedro.runner.sequential_runner - INFO - Completed node: selecionar_melhor_modelo_node
+2025-11-09 18:19:17,893 - kedro.runner.sequential_runner - INFO - Completed 4 out of 4 tasks
+2025-11-09 18:19:17,899 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully in 135.5 sec.
+2025-11-09 18:20:43,425 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-09 18:20:46,028 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-09 18:20:46,059 - kedro.ipython - INFO - Registered line magic '%reload_kedro'
+2025-11-09 18:20:46,061 - kedro.ipython - INFO - Registered line magic '%load_node'
+2025-11-09 18:20:46,063 - kedro.ipython - INFO - Resolved project path as: C:\Users\mathe\Área de Trabalho\Ml_data_set_gov\kedro\gov.
+To set a different path, run '%reload_kedro <project_root>'
+2025-11-09 18:20:48,536 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-09 18:20:49,106 - kedro.ipython - INFO - Kedro project gov
+2025-11-09 18:20:49,108 - kedro.ipython - INFO - Defined global variable 'context', 'session', 'catalog' and 'pipelines'
+2025-11-09 18:20:49,710 - kedro.ipython - INFO - Registered line magic 'run_viz'
+2025-11-09 18:23:42,705 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-09 18:25:53,253 - kedro_viz.models.flowchart.node_metadata - WARNING - 'dados_brutos' could not be previewed. Full exception: ValueError: Expected object or value
+2025-11-09 20:08:27,647 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-09 20:08:28,410 - kedro.framework.session.session - INFO - Kedro project gov
+2025-11-09 20:08:30,110 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-09 20:08:30,950 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\google\api_core\_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.19) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+
+2025-11-09 20:08:31,668 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\kedro\io\core.py:545: UserWarning: Since kedro-datasets 2.0, 'Dataset' is spelled with a lowercase 's'. Got 'pandas.CSVDataSet'.
+  warnings.warn(
+
+2025-11-09 20:09:36,647 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-09 20:09:37,416 - kedro.framework.session.session - INFO - Kedro project gov
+2025-11-09 20:09:39,043 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-09 20:11:10,896 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-09 20:11:11,653 - kedro.framework.session.session - INFO - Kedro project gov
+2025-11-09 20:11:13,175 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-09 20:11:13,965 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\google\api_core\_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.19) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+
+2025-11-09 20:11:14,619 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-11-09 20:11:14,623 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]dados_brutos[/dark_orange] (JSONDataset)...
+2025-11-09 20:11:17,899 - kedro.pipeline.node - INFO - Running node: limpar_dados_node: limpar_dados([dados_brutos]) -> [dados_limpos]
+2025-11-09 20:11:18,139 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]dados_limpos[/dark_orange] (ParquetDataset)...
+2025-11-09 20:11:19,491 - kedro.runner.sequential_runner - INFO - Completed node: limpar_dados_node
+2025-11-09 20:11:19,494 - kedro.runner.sequential_runner - INFO - Completed 1 out of 4 tasks
+2025-11-09 20:11:19,496 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]dados_limpos[/dark_orange] (ParquetDataset)...
+2025-11-09 20:11:20,150 - kedro.pipeline.node - INFO - Running node: vetorizar_texto_node: vetorizar_texto([dados_limpos]) -> [X_vetor;y_vetor;vetorizador_tfidf]
+2025-11-09 20:11:23,749 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]X_vetor[/dark_orange] (MemoryDataset)...
+2025-11-09 20:11:23,837 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]y_vetor[/dark_orange] (MemoryDataset)...
+2025-11-09 20:11:23,841 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]vetorizador_tfidf[/dark_orange] (MemoryDataset)...
+2025-11-09 20:11:23,925 - kedro.runner.sequential_runner - INFO - Completed node: vetorizar_texto_node
+2025-11-09 20:11:23,927 - kedro.runner.sequential_runner - INFO - Completed 2 out of 4 tasks
+2025-11-09 20:11:23,929 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]X_vetor[/dark_orange] (MemoryDataset)...
+2025-11-09 20:11:24,046 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]y_vetor[/dark_orange] (MemoryDataset)...
+2025-11-09 20:11:24,051 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]params:sample_frac[/dark_orange] (MemoryDataset)...
+2025-11-09 20:11:24,053 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]params:random_state[/dark_orange] (MemoryDataset)...
+2025-11-09 20:11:24,056 - kedro.pipeline.node - INFO - Running node: treinar_varios_modelos_node: treinar_modelos([X_vetor;y_vetor;params:sample_frac;params:random_state]) -> [modelos_resultados]
+2025-11-09 20:13:16,230 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-09 20:13:20,344 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-09 20:13:27,602 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\google\api_core\_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.19) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+
+2025-11-09 20:13:31,279 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-09 20:20:26,761 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]modelos_resultados[/dark_orange] (MemoryDataset)...
+2025-11-09 20:23:56,172 - kedro.runner.sequential_runner - INFO - Completed node: treinar_varios_modelos_node
+2025-11-09 20:23:56,175 - kedro.runner.sequential_runner - INFO - Completed 3 out of 4 tasks
+2025-11-09 20:23:56,212 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]modelos_resultados[/dark_orange] (MemoryDataset)...
+2025-11-09 20:23:56,384 - kedro.pipeline.node - INFO - Running node: selecionar_e_reportar_modelos_node: selecionar_e_reportar_modelos([modelos_resultados]) -> [melhor_modelo;melhor_modelo_info;relatorio_todos_modelos]
+2025-11-09 20:23:56,393 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]melhor_modelo[/dark_orange] (PickleDataset)...
+2025-11-09 20:23:56,398 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]melhor_modelo_info[/dark_orange] (CSVDataset)...
+2025-11-09 20:23:56,407 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]relatorio_todos_modelos[/dark_orange] (CSVDataset)...
+2025-11-09 20:23:56,422 - kedro.runner.sequential_runner - INFO - Completed node: selecionar_e_reportar_modelos_node
+2025-11-09 20:23:56,426 - kedro.runner.sequential_runner - INFO - Completed 4 out of 4 tasks
+2025-11-09 20:23:56,440 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully in 761.8 sec.
+2025-11-09 20:25:06,730 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-09 20:25:07,717 - kedro.framework.session.session - INFO - Kedro project gov
+2025-11-09 20:25:10,275 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-09 20:25:11,215 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\google\api_core\_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.19) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+
+2025-11-09 20:25:12,233 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-11-09 20:25:12,236 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]dados_brutos[/dark_orange] (JSONDataset)...
+2025-11-09 20:25:15,499 - kedro.pipeline.node - INFO - Running node: limpar_dados_node: limpar_dados([dados_brutos]) -> [dados_limpos]
+2025-11-09 20:25:15,703 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]dados_limpos[/dark_orange] (ParquetDataset)...
+2025-11-09 20:25:17,050 - kedro.runner.sequential_runner - INFO - Completed node: limpar_dados_node
+2025-11-09 20:25:17,054 - kedro.runner.sequential_runner - INFO - Completed 1 out of 4 tasks
+2025-11-09 20:25:17,056 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]dados_limpos[/dark_orange] (ParquetDataset)...
+2025-11-09 20:25:17,731 - kedro.pipeline.node - INFO - Running node: vetorizar_texto_node: vetorizar_texto([dados_limpos]) -> [X_vetor;y_vetor;vetorizador_tfidf]
+2025-11-09 20:25:21,332 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]X_vetor[/dark_orange] (MemoryDataset)...
+2025-11-09 20:25:21,422 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]y_vetor[/dark_orange] (MemoryDataset)...
+2025-11-09 20:25:21,426 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]vetorizador_tfidf[/dark_orange] (MemoryDataset)...
+2025-11-09 20:25:21,507 - kedro.runner.sequential_runner - INFO - Completed node: vetorizar_texto_node
+2025-11-09 20:25:21,510 - kedro.runner.sequential_runner - INFO - Completed 2 out of 4 tasks
+2025-11-09 20:25:21,513 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]X_vetor[/dark_orange] (MemoryDataset)...
+2025-11-09 20:25:21,628 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]y_vetor[/dark_orange] (MemoryDataset)...
+2025-11-09 20:25:21,632 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]params:sample_frac[/dark_orange] (MemoryDataset)...
+2025-11-09 20:25:21,635 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]params:random_state[/dark_orange] (MemoryDataset)...
+2025-11-09 20:25:21,637 - kedro.pipeline.node - INFO - Running node: treinar_varios_modelos_node: treinar_modelos([X_vetor;y_vetor;params:sample_frac;params:random_state]) -> [modelos_resultados]
+2025-11-09 20:34:38,835 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]modelos_resultados[/dark_orange] (MemoryDataset)...
+2025-11-09 20:34:39,102 - kedro.runner.sequential_runner - INFO - Completed node: treinar_varios_modelos_node
+2025-11-09 20:34:39,105 - kedro.runner.sequential_runner - INFO - Completed 3 out of 4 tasks
+2025-11-09 20:34:39,226 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]modelos_resultados[/dark_orange] (MemoryDataset)...
+2025-11-09 20:34:39,400 - kedro.pipeline.node - INFO - Running node: selecionar_e_reportar_modelos_node: selecionar_e_reportar_modelos([modelos_resultados]) -> [melhor_modelo;melhor_modelo_info;relatorio_todos_modelos]
+2025-11-09 20:34:39,441 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]melhor_modelo[/dark_orange] (PickleDataset)...
+2025-11-09 20:34:39,447 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]melhor_modelo_info[/dark_orange] (CSVDataset)...
+2025-11-09 20:34:39,460 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]relatorio_todos_modelos[/dark_orange] (CSVDataset)...
+2025-11-09 20:34:39,476 - kedro.runner.sequential_runner - INFO - Completed node: selecionar_e_reportar_modelos_node
+2025-11-09 20:34:39,478 - kedro.runner.sequential_runner - INFO - Completed 4 out of 4 tasks
+2025-11-09 20:34:39,495 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully in 567.3 sec.
+2025-11-09 20:37:32,881 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-09 20:37:37,320 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-09 20:37:42,422 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\google\api_core\_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.19) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+
+2025-11-09 20:37:44,552 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-10 12:12:13,341 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-10 12:12:14,673 - kedro.framework.session.session - INFO - Kedro project gov
+2025-11-10 12:12:18,836 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-10 12:39:17,363 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-10 12:39:18,725 - kedro.framework.session.session - INFO - Kedro project gov
+2025-11-10 12:39:23,018 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-10 12:40:54,180 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-10 12:40:55,197 - kedro.framework.session.session - INFO - Kedro project gov
+2025-11-10 12:40:57,334 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-10 12:40:58,942 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\google\api_core\_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.19) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+
+2025-11-10 12:41:00,329 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-11-10 12:41:00,337 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]dados_brutos[/dark_orange] (JSONDataset)...
+2025-11-10 12:41:04,003 - kedro.pipeline.node - INFO - Running node: limpar_dados_node: limpar_dados([dados_brutos]) -> [dados_limpos]
+2025-11-10 12:41:04,227 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]dados_limpos[/dark_orange] (ParquetDataset)...
+2025-11-10 12:41:05,598 - kedro.runner.sequential_runner - INFO - Completed node: limpar_dados_node
+2025-11-10 12:41:05,606 - kedro.runner.sequential_runner - INFO - Completed 1 out of 5 tasks
+2025-11-10 12:41:05,606 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]dados_limpos[/dark_orange] (ParquetDataset)...
+2025-11-10 12:41:06,326 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]params:sample_frac[/dark_orange] (MemoryDataset)...
+2025-11-10 12:41:06,326 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]params:random_state[/dark_orange] (MemoryDataset)...
+2025-11-10 12:41:06,326 - kedro.pipeline.node - INFO - Running node: dividir_dados_node: dividir_dados([dados_limpos;params:sample_frac;params:random_state]) -> [df_train;df_test]
+2025-11-10 12:41:06,374 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]df_train[/dark_orange] (MemoryDataset)...
+2025-11-10 12:41:06,382 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]df_test[/dark_orange] (MemoryDataset)...
+2025-11-10 12:41:06,406 - kedro.runner.sequential_runner - INFO - Completed node: dividir_dados_node
+2025-11-10 12:41:06,406 - kedro.runner.sequential_runner - INFO - Completed 2 out of 5 tasks
+2025-11-10 12:41:06,414 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]df_train[/dark_orange] (MemoryDataset)...
+2025-11-10 12:41:06,422 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]df_test[/dark_orange] (MemoryDataset)...
+2025-11-10 12:41:06,422 - kedro.pipeline.node - INFO - Running node: vetorizar_texto_node: vetorizar_texto([df_train;df_test]) -> [X_train;y_train;X_test;y_test;vetorizador_tfidf]
+2025-11-10 12:41:08,110 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]X_train[/dark_orange] (MemoryDataset)...
+2025-11-10 12:41:08,158 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]y_train[/dark_orange] (MemoryDataset)...
+2025-11-10 12:41:08,158 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]X_test[/dark_orange] (MemoryDataset)...
+2025-11-10 12:41:08,174 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]y_test[/dark_orange] (MemoryDataset)...
+2025-11-10 12:41:08,182 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]vetorizador_tfidf[/dark_orange] (MemoryDataset)...
+2025-11-10 12:41:08,198 - kedro.runner.sequential_runner - INFO - Completed node: vetorizar_texto_node
+2025-11-10 12:41:08,198 - kedro.runner.sequential_runner - INFO - Completed 3 out of 5 tasks
+2025-11-10 12:41:08,254 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]X_train[/dark_orange] (MemoryDataset)...
+2025-11-10 12:41:08,310 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]y_train[/dark_orange] (MemoryDataset)...
+2025-11-10 12:41:08,318 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]X_test[/dark_orange] (MemoryDataset)...
+2025-11-10 12:41:08,334 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]y_test[/dark_orange] (MemoryDataset)...
+2025-11-10 12:41:08,342 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]params:random_state[/dark_orange] (MemoryDataset)...
+2025-11-10 12:41:08,350 - kedro.pipeline.node - INFO - Running node: treinar_varios_modelos_node: treinar_modelos([X_train;y_train;X_test;y_test;params:random_state]) -> [modelos_resultados]
+2025-11-10 12:47:54,199 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]modelos_resultados[/dark_orange] (MemoryDataset)...
+2025-11-10 13:21:18,587 - kedro.runner.sequential_runner - INFO - Completed node: treinar_varios_modelos_node
+2025-11-10 13:21:18,591 - kedro.runner.sequential_runner - INFO - Completed 4 out of 5 tasks
+2025-11-10 13:21:18,600 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]modelos_resultados[/dark_orange] (MemoryDataset)...
+2025-11-10 13:21:18,816 - kedro.pipeline.node - INFO - Running node: selecionar_e_reportar_modelos_node: selecionar_e_reportar_modelos([modelos_resultados]) -> [melhor_modelo;melhor_modelo_info;relatorio_todos_modelos]
+2025-11-10 13:21:18,825 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]melhor_modelo[/dark_orange] (PickleDataset)...
+2025-11-10 13:21:18,828 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]melhor_modelo_info[/dark_orange] (CSVDataset)...
+2025-11-10 13:21:18,836 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]relatorio_todos_modelos[/dark_orange] (CSVDataset)...
+2025-11-10 13:21:18,854 - kedro.runner.sequential_runner - INFO - Completed node: selecionar_e_reportar_modelos_node
+2025-11-10 13:21:18,856 - kedro.runner.sequential_runner - INFO - Completed 5 out of 5 tasks
+2025-11-10 13:21:18,877 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully in 2418.5 sec.
+2025-11-10 13:21:47,714 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-10 13:21:51,884 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-10 13:21:55,301 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\google\api_core\_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.19) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+
+2025-11-10 13:21:56,992 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-10 14:44:51,954 - kedro_viz.models.flowchart.node_metadata - WARNING - 'dados_brutos' could not be previewed. Full exception: ValueError: Expected object or value
+2025-11-13 10:02:29,384 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-13 10:02:30,492 - kedro.framework.session.session - INFO - Kedro project gov
+2025-11-13 10:02:33,932 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-13 10:02:34,584 - kedro_viz.integrations.kedro.run_hooks - WARNING - Workflow tracking is disabled during partial pipeline runs (executed using --from-nodes, --to-nodes, --tags, --pipeline, and more). `.viz/kedro_pipeline_events.json` will be created only during a full kedro run. See issue https://github.com/kedro-org/kedro-viz/issues/2443 for more details.
+2025-11-13 10:02:35,372 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\google\api_core\_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.19) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+
+2025-11-13 10:02:36,472 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-11-13 10:02:36,477 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]dados_brutos[/dark_orange] (JSONDataset)...
+2025-11-13 10:02:39,891 - kedro.pipeline.node - INFO - Running node: limpar_dados_node: limpar_dados([dados_brutos]) -> [dados_limpos]
+2025-11-13 10:02:40,138 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]dados_limpos[/dark_orange] (ParquetDataset)...
+2025-11-13 10:02:41,498 - kedro.runner.sequential_runner - INFO - Completed node: limpar_dados_node
+2025-11-13 10:02:41,501 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2025-11-13 10:02:41,503 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]dados_limpos[/dark_orange] (ParquetDataset)...
+2025-11-13 10:02:42,179 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]params:sample_frac[/dark_orange] (MemoryDataset)...
+2025-11-13 10:02:42,183 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]params:random_state[/dark_orange] (MemoryDataset)...
+2025-11-13 10:02:42,186 - kedro.pipeline.node - INFO - Running node: dividir_dados_node: dividir_dados([dados_limpos;params:sample_frac;params:random_state]) -> [df_train;df_test]
+2025-11-13 10:02:42,226 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]df_train[/dark_orange] (MemoryDataset)...
+2025-11-13 10:02:42,235 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]df_test[/dark_orange] (MemoryDataset)...
+2025-11-13 10:02:42,257 - kedro.runner.sequential_runner - INFO - Completed node: dividir_dados_node
+2025-11-13 10:02:42,260 - kedro.runner.sequential_runner - INFO - Completed 2 out of 3 tasks
+2025-11-13 10:02:42,262 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]df_train[/dark_orange] (MemoryDataset)...
+2025-11-13 10:02:42,268 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]df_test[/dark_orange] (MemoryDataset)...
+2025-11-13 10:02:42,273 - kedro.pipeline.node - INFO - Running node: vetorizar_texto_node: vetorizar_texto([df_train;df_test]) -> [X_train;y_train;X_test;y_test;vetorizador_tfidf]
+2025-11-13 10:02:43,924 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]X_train[/dark_orange] (MemoryDataset)...
+2025-11-13 10:02:43,963 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]y_train[/dark_orange] (MemoryDataset)...
+2025-11-13 10:02:43,967 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]X_test[/dark_orange] (MemoryDataset)...
+2025-11-13 10:02:43,978 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]y_test[/dark_orange] (MemoryDataset)...
+2025-11-13 10:02:43,981 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]vetorizador_tfidf[/dark_orange] (PickleDataset)...
+2025-11-13 10:02:44,006 - kedro.runner.sequential_runner - INFO - Completed node: vetorizar_texto_node
+2025-11-13 10:02:44,008 - kedro.runner.sequential_runner - INFO - Completed 3 out of 3 tasks
+2025-11-13 10:02:44,047 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully in 7.6 sec.
+2025-11-13 10:03:11,126 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-13 10:03:11,806 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-13 10:03:18,872 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-13 10:03:19,534 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-13 10:03:29,011 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-13 10:03:29,722 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-13 10:03:50,824 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-13 10:03:51,621 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-13 10:06:44,735 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-13 10:06:45,401 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-13 10:08:06,231 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-13 10:08:06,915 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-13 10:09:05,454 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-13 10:09:06,226 - kedro.framework.session.session - INFO - Kedro project gov
+2025-11-13 10:09:07,974 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-13 10:13:55,196 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-13 10:13:58,451 - kedro.framework.session.session - INFO - Kedro project gov
+2025-11-13 10:14:00,048 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-13 10:14:00,619 - kedro_viz.integrations.kedro.run_hooks - WARNING - Workflow tracking is disabled during partial pipeline runs (executed using --from-nodes, --to-nodes, --tags, --pipeline, and more). `.viz/kedro_pipeline_events.json` will be created only during a full kedro run. See issue https://github.com/kedro-org/kedro-viz/issues/2443 for more details.
+2025-11-13 10:14:00,818 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\google\api_core\_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.19) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+
+2025-11-13 10:14:01,476 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-11-13 10:14:01,480 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]novo_cliente_raw[/dark_orange] (JSONDataset)...
+2025-11-13 10:14:01,489 - kedro.pipeline.node - INFO - Running node: limpar_dados_producao_node: limpar_dados_producao([novo_cliente_raw]) -> [novo_cliente_limpo]
+2025-11-13 10:14:01,493 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]novo_cliente_limpo[/dark_orange] (MemoryDataset)...
+2025-11-13 10:14:01,495 - kedro.runner.sequential_runner - INFO - Completed node: limpar_dados_producao_node
+2025-11-13 10:14:01,497 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2025-11-13 10:14:01,499 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]novo_cliente_limpo[/dark_orange] (MemoryDataset)...
+2025-11-13 10:14:01,501 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]vetorizador_tfidf[/dark_orange] (PickleDataset)...
+2025-11-13 10:14:01,504 - kedro.pipeline.node - INFO - Running node: transformar_novos_dados_node: transformar_novo_cliente([novo_cliente_limpo;vetorizador_tfidf]) -> [X_cliente_final]
+2025-11-13 10:14:01,508 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]X_cliente_final[/dark_orange] (MemoryDataset)...
+2025-11-13 10:14:01,511 - kedro.runner.sequential_runner - INFO - Completed node: transformar_novos_dados_node
+2025-11-13 10:14:01,513 - kedro.runner.sequential_runner - INFO - Completed 2 out of 3 tasks
+2025-11-13 10:14:01,514 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]melhor_modelo[/dark_orange] (PickleDataset)...
+2025-11-13 10:14:01,518 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]X_cliente_final[/dark_orange] (MemoryDataset)...
+2025-11-13 10:14:01,520 - kedro.pipeline.node - INFO - Running node: prever_nota_node: prever_nota([melhor_modelo;X_cliente_final]) -> [previsao_final]
+2025-11-13 10:14:01,564 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]previsao_final[/dark_orange] (JSONDataset)...
+2025-11-13 10:14:01,568 - kedro.runner.sequential_runner - WARNING - There are 1 nodes that have not run.
+You can resume the pipeline run from the nearest nodes with persisted inputs by adding the following argument to your previous command:
+  --from-nodes "limpar_dados_producao_node"
+2025-11-13 10:16:17,564 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-13 10:16:18,320 - kedro.framework.session.session - INFO - Kedro project gov
+2025-11-13 10:16:20,214 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-13 10:16:20,785 - kedro_viz.integrations.kedro.run_hooks - WARNING - Workflow tracking is disabled during partial pipeline runs (executed using --from-nodes, --to-nodes, --tags, --pipeline, and more). `.viz/kedro_pipeline_events.json` will be created only during a full kedro run. See issue https://github.com/kedro-org/kedro-viz/issues/2443 for more details.
+2025-11-13 10:16:20,993 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\google\api_core\_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.19) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+
+2025-11-13 10:16:21,738 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-11-13 10:16:21,743 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]novo_cliente_raw[/dark_orange] (JSONDataset)...
+2025-11-13 10:16:21,752 - kedro.pipeline.node - INFO - Running node: limpar_dados_producao_node: limpar_dados_producao([novo_cliente_raw]) -> [novo_cliente_limpo]
+2025-11-13 10:16:21,757 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]novo_cliente_limpo[/dark_orange] (MemoryDataset)...
+2025-11-13 10:16:21,760 - kedro.runner.sequential_runner - INFO - Completed node: limpar_dados_producao_node
+2025-11-13 10:16:21,763 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2025-11-13 10:16:21,764 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]novo_cliente_limpo[/dark_orange] (MemoryDataset)...
+2025-11-13 10:16:21,767 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]vetorizador_tfidf[/dark_orange] (PickleDataset)...
+2025-11-13 10:16:21,770 - kedro.pipeline.node - INFO - Running node: transformar_novos_dados_node: transformar_novo_cliente([novo_cliente_limpo;vetorizador_tfidf]) -> [X_cliente_final]
+2025-11-13 10:16:21,774 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]X_cliente_final[/dark_orange] (MemoryDataset)...
+2025-11-13 10:16:21,777 - kedro.runner.sequential_runner - INFO - Completed node: transformar_novos_dados_node
+2025-11-13 10:16:21,779 - kedro.runner.sequential_runner - INFO - Completed 2 out of 3 tasks
+2025-11-13 10:16:21,780 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]melhor_modelo[/dark_orange] (PickleDataset)...
+2025-11-13 10:16:21,783 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]X_cliente_final[/dark_orange] (MemoryDataset)...
+2025-11-13 10:16:21,786 - kedro.pipeline.node - INFO - Running node: prever_nota_node: prever_nota([melhor_modelo;X_cliente_final]) -> [previsao_final]
+2025-11-13 10:16:21,801 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]previsao_final[/dark_orange] (JSONDataset)...
+2025-11-13 10:16:21,804 - kedro.runner.sequential_runner - INFO - Completed node: prever_nota_node
+2025-11-13 10:16:21,806 - kedro.runner.sequential_runner - INFO - Completed 3 out of 3 tasks
+2025-11-13 10:16:21,808 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully in 0.1 sec.
+2025-11-13 10:17:31,281 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-13 10:17:35,110 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-13 10:17:37,946 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\google\api_core\_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.19) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+
+2025-11-13 10:17:39,385 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-13 10:31:42,035 - kedro.framework.project - INFO - Using 'conf\logging.yml' as logging configuration. You can change this by setting the KEDRO_LOGGING_CONFIG environment variable accordingly.
+2025-11-13 10:31:43,001 - kedro.framework.session.session - INFO - Kedro project gov
+2025-11-13 10:31:45,470 - kedro_telemetry.plugin - INFO - Kedro is sending anonymous usage data with the sole purpose of improving the product. No personal data or IP addresses are stored on our side. If you want to opt out, set the `KEDRO_DISABLE_TELEMETRY` or `DO_NOT_TRACK` environment variables, or create a `.telemetry` file in the current working directory with the contents `consent: false`. Read more at https://docs.kedro.org/en/stable/configuration/telemetry.html
+2025-11-13 10:31:46,026 - kedro_viz.integrations.kedro.run_hooks - WARNING - Workflow tracking is disabled during partial pipeline runs (executed using --from-nodes, --to-nodes, --tags, --pipeline, and more). `.viz/kedro_pipeline_events.json` will be created only during a full kedro run. See issue https://github.com/kedro-org/kedro-viz/issues/2443 for more details.
+2025-11-13 10:31:46,347 - py.warnings - WARNING - C:\Users\mathe\anaconda3\envs\meuambiente\lib\site-packages\google\api_core\_python_version_support.py:266: FutureWarning: You are using a Python version (3.10.19) which Google will stop supporting in new releases of google.api_core once it reaches its end of life (2026-10-04). Please upgrade to the latest Python version, or at least Python 3.11, to continue receiving updates for google.api_core past that date.
+  warnings.warn(message, FutureWarning)
+
+2025-11-13 10:31:47,311 - kedro.runner.sequential_runner - INFO - Using synchronous mode for loading and saving data. Use the --async flag for potential performance gains. https://docs.kedro.org/en/stable/nodes_and_pipelines/run_a_pipeline.html#load-and-save-asynchronously
+2025-11-13 10:31:47,316 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]novo_cliente_raw[/dark_orange] (JSONDataset)...
+2025-11-13 10:31:47,341 - kedro.pipeline.node - INFO - Running node: limpar_dados_producao_node: limpar_dados_producao([novo_cliente_raw]) -> [novo_cliente_limpo]
+2025-11-13 10:31:47,354 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]novo_cliente_limpo[/dark_orange] (MemoryDataset)...
+2025-11-13 10:31:47,357 - kedro.runner.sequential_runner - INFO - Completed node: limpar_dados_producao_node
+2025-11-13 10:31:47,358 - kedro.runner.sequential_runner - INFO - Completed 1 out of 3 tasks
+2025-11-13 10:31:47,360 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]novo_cliente_limpo[/dark_orange] (MemoryDataset)...
+2025-11-13 10:31:47,363 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]vetorizador_tfidf[/dark_orange] (PickleDataset)...
+2025-11-13 10:31:47,366 - kedro.pipeline.node - INFO - Running node: transformar_novos_dados_node: transformar_novo_cliente([novo_cliente_limpo;vetorizador_tfidf]) -> [X_cliente_final]
+2025-11-13 10:31:47,375 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]X_cliente_final[/dark_orange] (MemoryDataset)...
+2025-11-13 10:31:47,379 - kedro.runner.sequential_runner - INFO - Completed node: transformar_novos_dados_node
+2025-11-13 10:31:47,381 - kedro.runner.sequential_runner - INFO - Completed 2 out of 3 tasks
+2025-11-13 10:31:47,383 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]melhor_modelo[/dark_orange] (PickleDataset)...
+2025-11-13 10:31:47,386 - kedro.io.data_catalog - INFO - Loading data from [dark_orange]X_cliente_final[/dark_orange] (MemoryDataset)...
+2025-11-13 10:31:47,389 - kedro.pipeline.node - INFO - Running node: prever_nota_node: prever_nota([melhor_modelo;X_cliente_final]) -> [previsao_final]
+2025-11-13 10:31:47,437 - kedro.io.data_catalog - INFO - Saving data to [dark_orange]previsao_final[/dark_orange] (JSONDataset)...
+2025-11-13 10:31:47,441 - kedro.runner.sequential_runner - INFO - Completed node: prever_nota_node
+2025-11-13 10:31:47,443 - kedro.runner.sequential_runner - INFO - Completed 3 out of 3 tasks
+2025-11-13 10:31:47,445 - kedro.runner.sequential_runner - INFO - Pipeline execution completed successfully in 0.1 sec.

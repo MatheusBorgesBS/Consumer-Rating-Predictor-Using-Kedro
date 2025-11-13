@@ -1,0 +1,58 @@
+# Here you can define all your datasets by using simple YAML syntax.
+#
+# Documentation for this file format can be found in "The Data Catalog"
+# Link: https://docs.kedro.org/en/stable/data/data_catalog.html
+
+dados_brutos:
+  type: pandas.JSONDataset
+  filepath: data/01_raw/dados2025.json
+  load_args:
+    encoding: utf-8
+
+dados_limpos:
+  type: pandas.ParquetDataset
+  filepath: data/02_intermediate/dados_limpos.parquet
+
+X_vetor:
+  type: memory_dataset.MemoryDataset
+
+y_vetor:
+  type: memory_dataset.MemoryDataset
+
+predicoes_modelo:
+  type: pandas.CSVDataset
+  filepath: data/03_primary/predicoes_modelo.csv
+  save_args:
+    index: False
+
+melhor_modelo:
+  type: pickle.PickleDataset  # <--- Correção: "DataSet"
+  filepath: data/05_model_input/melhor_modelo.pkl # <--- Sugestão: Mudei o nome do arquivo
+  
+
+# 2. As infos do melhor modelo (CSV)
+melhor_modelo_info:
+  type: pandas.CSVDataset  # <--- Correção: "DataSet"
+  filepath: data/03_primary/melhor_modelo_info.csv
+  save_args:
+    index: False
+  
+
+# 3. O Ranking com todos os modelos (CSV)
+relatorio_todos_modelos:
+  type: pandas.CSVDataset # <--- Correção: "DataSet"
+  filepath: data/07_model_output/relatorio_todos_modelos.csv
+
+vetorizador_tfidf:
+  type: pickle.PickleDataset
+  filepath: data/07_model_output/vetorizador_tfidf.pkl
+
+
+novo_cliente_raw:
+  type: pandas.JSONDataset
+  filepath: data/01_raw/cliente_para_prever.json # <-- LÊ DE UM ARQUIVO
+
+previsao_final:
+  type: json.JSONDataset
+  filepath: data/08_reporting/previsao_final.json
+  
