@@ -34,7 +34,7 @@ Os dados brutos (`dados2025.json`) são muito grandes para o GitHub e não estã
 
 Para executar o pipeline de pré-processamento, você **deve** fazer o download dos dados manualmente:
 
-1.  **[Faça o download dos dados brutos aqui]([httpsObter_link_do_Google_Drive_ou_Kaggle](https://www.kaggle.com/code/beatrizmsarmento/randomforest-relatosdosconsumidores/input))**
+1.  **[Faça o download dos dados brutos aqui](https://www.kaggle.com/code/beatrizmsarmento/randomforest-relatosdosconsumidores/input)**
     *(Link para o arquivo `dados2025.json` - MB)*
 
 2.  Após o download, coloque o arquivo `dados2025.json` dentro da pasta `data/01_raw/` do seu projeto.
