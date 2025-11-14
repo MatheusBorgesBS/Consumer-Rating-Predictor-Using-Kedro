@@ -8,7 +8,7 @@ O modelo usa como *features* o texto do **comentário** final do cliente e o **s
 
 Este projeto demonstra um fluxo completo de MLOps, incluindo:
 * Limpeza e pré-processamento de dados.
-* Vetorização de texto (TF-IDF) sem vazamento de dados (Data Leakage).
+* Vetorização de texto (TF-IDF).
 * Treinamento e comparação de múltiplos modelos (LogisticRegression, RandomForest, GradientBoosting).
 * Criação de um pipeline de **`producao`** (inferência) que carrega os artefatos salvos (`.pkl`) para prever a nota de novos clientes.
 
