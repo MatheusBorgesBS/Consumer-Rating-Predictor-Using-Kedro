@@ -4,6 +4,7 @@
 
 Este projeto é um pipeline de Machine Learning de ponta a ponta construído com [Kedro](https://kedro.org). O objetivo é prever a nota (de 1 a 5) que um consumidor dará em uma reclamação no site [Consumidor.gov.br](https://Consumidor.gov.br).
 
+
 O modelo usa como *features* o texto do **comentário** final do cliente e o **status** do caso (Resolvido/Não Resolvido) para prever a **nota**.
 
 Este projeto demonstra um fluxo completo de MLOps, incluindo:
@@ -27,8 +28,20 @@ O projeto é dividido em três pipelines principais, registrados no `pipeline_re
 * **`modelagem`**: Consome os dados de treino/teste, treina múltiplos modelos, gera um relatório (`relatorio_todos_modelos.csv`) comparando a acurácia de todos e salva o melhor modelo (`melhor_modelo.pkl`).
 * **`producao`**: Um pipeline de inferência independente. Ele carrega um novo arquivo (`cliente_para_prever.json`), usa o `vetorizador_tfidf` e o `melhor_modelo` salvos para fazer a previsão e salva o resultado em um `.json`.
 
-## ⚙️ Como Usar
+## 💿 Dados do Projeto
 
+Os dados brutos (`dados2025.json`) são muito grandes para o GitHub e não estão incluídos neste repositório, conforme as boas práticas do Kedro (veja o `.gitignore`).
+
+Para executar o pipeline de pré-processamento, você **deve** fazer o download dos dados manualmente:
+
+1.  **[Faça o download dos dados brutos aqui]([httpsObter_link_do_Google_Drive_ou_Kaggle](https://www.kaggle.com/code/beatrizmsarmento/randomforest-relatosdosconsumidores/input))**
+    *(Link para o arquivo `dados2025.json` - MB)*
+
+2.  Após o download, coloque o arquivo `dados2025.json` dentro da pasta `data/01_raw/` do seu projeto.
+
+O pipeline de pré-processamento espera encontrar o arquivo em `data/01_raw/dados2025.json` para poder ser executado.
+
+## ⚙️ Como Usar
 ### 1. Instalar Dependências
 
 Este projeto usa o `requirements.txt` para gerenciar as dependências.
