@@ -2,7 +2,7 @@
 
 # Consumer Rating Predictor com Kedro
 
-Este projeto é um pipeline de Machine Learning de ponta a ponta construído com [Kedro](https://kedro.org). O objetivo é prever a nota (de 1 a 5) que um consumidor dará em uma reclamação no site [Consumidor.gov.br](https://Consumidor.gov.br).
+Este projeto é um pipeline de Machine Learning construído com [Kedro](https://kedro.org). O objetivo é prever a nota (de 1 a 5) que um consumidor dará em uma reclamação no site [Consumidor.gov.br](https://Consumidor.gov.br).
 
 
 O modelo usa como *features* o texto do **comentário** final do cliente e o **status** do caso (Resolvido/Não Resolvido) para prever a **nota**.
