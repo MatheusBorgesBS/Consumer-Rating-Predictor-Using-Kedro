@@ -1,16 +1,13 @@
 from kedro.pipeline import Pipeline, node
-# IMPORTA OS 3 NÓS DO ARQUIVO LOCAL
 from .nodes import limpar_dados_producao, transformar_novo_cliente, prever_nota
-
-# NÃO PRECISA MAIS IMPORTAR NADA DO 'preprocessamento'
 
 def create_pipeline(**kwargs) -> Pipeline:
     return Pipeline([
         node(
-            func=limpar_dados_producao,  # <-- USA O NOVO NÓ
+            func=limpar_dados_producao,  
             inputs="novo_cliente_raw",
             outputs="novo_cliente_limpo",
-            name="limpar_dados_producao_node", # Nome atualizado
+            name="limpar_dados_producao_node", 
         ),
         node(
             func=transformar_novo_cliente,

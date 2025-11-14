@@ -1,5 +1,3 @@
-# Em: src/gov/pipelines/preprocessamento/pipeline.py
-
 from kedro.pipeline import Pipeline, node
 from .nodes import limpar_dados, dividir_dados, vetorizar_texto
 
@@ -13,7 +11,6 @@ def create_pipeline(**kwargs) -> Pipeline:
         ),
         node(
             func=dividir_dados,
-            # AGORA ELE RECEBE OS PARÂMETROS
             inputs=["dados_limpos", "params:sample_frac", "params:random_state"], 
             outputs=["df_train", "df_test"],
             name="dividir_dados_node",

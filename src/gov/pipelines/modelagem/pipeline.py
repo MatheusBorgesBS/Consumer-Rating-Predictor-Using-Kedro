@@ -1,5 +1,3 @@
-# Em: src/gov/pipelines/modelagem/pipeline.py
-
 from kedro.pipeline import Pipeline, node
 from .nodes import treinar_modelos, selecionar_e_reportar_modelos
 
@@ -7,14 +5,13 @@ def create_pipeline(**kwargs) -> Pipeline:
     return Pipeline([
         node(
             func=treinar_modelos, 
-            # AGORA ELE RECEBE OS DADOS PRONTOS!
-            # O 'sample_frac' não é mais necessário aqui.
+            
             inputs=[
                 "X_train",
                 "y_train",
                 "X_test",
                 "y_test",
-                "params:random_state" # Usado para os modelos
+                "params:random_state"
             ],
             outputs="modelos_resultados", 
             name="treinar_varios_modelos_node",

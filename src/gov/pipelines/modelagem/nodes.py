@@ -1,21 +1,17 @@
-# Em: src/gov/pipelines/modelagem/nodes.py
-
 import pandas as pd
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 from sklearn.metrics import accuracy_score
 
-# --- NÓ 1 (MODIFICADO E SIMPLIFICADO) ---
 def treinar_modelos(X_train, y_train, X_test, y_test, random_state: int):
     """
     Node do Kedro: treina múltiplos modelos nos dados JÁ DIVIDIDOS
     e retorna um dicionário de resultados.
     """
     
-    # A lógica de sample_frac E train_test_split foi REMOVIDA DAQUI.
-    # Esta função agora só recebe os dados prontos.
+    
 
-    # Modelos a testar
+    # modelos
     modelos = {
         "LogisticRegression": LogisticRegression(max_iter=1000, random_state=random_state),
         "RandomForest": RandomForestClassifier(n_estimators=100, random_state=random_state),
@@ -24,11 +20,11 @@ def treinar_modelos(X_train, y_train, X_test, y_test, random_state: int):
 
     resultados = {}
 
-    # Treina e avalia
+    # treina e avalia
     for nome, modelo in modelos.items():
-        # Treina no X_train
+        # treina no X_train
         modelo.fit(X_train, y_train)
-        # Pontua no X_test
+        # pontua no X_test
         score = accuracy_score(y_test, modelo.predict(X_test)) 
         
         resultados[nome] = {
@@ -40,7 +36,7 @@ def treinar_modelos(X_train, y_train, X_test, y_test, random_state: int):
     return resultados
 
 
-# --- NÓ 2 (Sem alteração) ---
+# 
 def selecionar_e_reportar_modelos(modelos_resultados: dict):
     """
     Recebe o dicionário de resultados.
@@ -73,5 +69,4 @@ def selecionar_e_reportar_modelos(modelos_resultados: dict):
     }
     df_info_melhor = pd.DataFrame([info_melhor])
 
-    # Retorna as 3 saídas
     return melhor_modelo, df_info_melhor, df_relatorio_todos
