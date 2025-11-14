@@ -1,0 +1,32 @@
+[
+  {
+    "id": 99997,
+    "empresa": "Qualquer Empresa",
+    "data": "2025-11-13",
+    "local": "São Paulo - SP",
+    "status": "Não Resolvido",
+    "relato": "Meu relato de teste, bla bla bla.",
+    "resposta": "A empresa respondeu...",
+    "comentario": "este servico é horrivel e pessimo"
+  },
+  {
+    "id": 99999,
+    "empresa": "Outra Empresa",
+    "data": "2025-11-13",
+    "local": "Rio de Janeiro - RJ",
+    "status": "Resolvido",
+    "relato": "Meu outro relato...",
+    "resposta": "",
+    "comentario": "o produto foi otimo e resolveu meu problema"
+  },
+  {
+    "id": 99998,
+    "empresa": "Outra Empresa",
+    "data": "2025-11-13",
+    "local": "Rio de Janeiro - RJ",
+    "status": "Resolvido",
+    "relato": "Meu outro relato...",
+    "resposta": "",
+    "comentario": "amei o produto obrigado por me ajudar com o problema"
+  }
+]

@@ -1,0 +1,4 @@
+modelo,accuracy
+LogisticRegression,0.8008956252152946
+RandomForest,0.7988287977953841
+GradientBoosting,0.7950396141922149
